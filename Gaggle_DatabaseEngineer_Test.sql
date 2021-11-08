@@ -14,7 +14,6 @@ WHERE actor_id != 8 AND UPPER(first_name) = (SELECT first_name FROM actor
 
 -- Question 2)
 
-
 ALTER TABLE actor ADD (UUID BINARY(16) UNIQUE);
 
 ALTER TABLE customer ADD (UUID BINARY(16) UNIQUE);
@@ -82,7 +81,6 @@ DELIMITER ;
 
 
 -- Question 3)
-
 
 	-- There are a few ways to go about doing this. First, you can create a JOIN to display the data:
 
